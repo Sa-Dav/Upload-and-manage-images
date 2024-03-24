@@ -98,6 +98,8 @@ You need to attach Key-Value pairs of "form-data" type to the Body
 * Only upload images in the correct formats (PNG, JPG).
 * Cannot upload two files with the same name.
 
+## Set up PostgreSQL with Docker
+$ docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=test1234 -d postgres
 
 ## Contact:
 email: sarkdave8@gmail.com
